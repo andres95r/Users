@@ -9,3 +9,35 @@ __pycache__/
 *.pyd
 .Python
 python*.dll
+
+# Archivos de logs y caché
+logs/
+*.log
+pip-log.txt
+cache/
+*.sqlite3
+*.db
+
+# Configuración del IDE
+.vscode/
+.idea/
+*.iml
+
+# Archivos de dependencias generados
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Docker
+docker-compose.override.yml
+
+# Node.js (si usas frontend o scripts en JS/TS)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Bytecode y compilados
+*.so
+*.exe
+*.dll
+.DS_Store
